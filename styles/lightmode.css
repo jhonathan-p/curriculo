@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+}
+
+header {
+    padding: 2% 0% 0% 15%;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu__link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #111911;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.menu__link:hover{
+    background-color: #99e599;
+}
+
+.toggle__mode{
+    margin-left: auto;
+    margin-right: 17.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #aaffaa;
+    color: #111911;
+    padding: 10px;
+    border-radius: 8px;
+    width: 60px;
+    border: 2px solid #111911;
+}
+
+.toggle__mode:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #111911;
+    color:#aaffaa;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #aaffaa;
+    color: #111911;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    justify-content: space-between;
+    padding: 5% 15%;
+}
+
+.content__presentation {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 615px;
+}
+
+.content__presentation__title {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.content__presentation__text {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.presentation__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.presentation__links__subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.presentation__links__link {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #111911;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    color: #111911;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.presentation__links__link:hover {
+    background-color: #99e599;
+}
+
+.img__jhonathan{
+    border-radius: 32px;
+}
+
+.img__jhonathan:hover {
+    outline: 2px dotted #111911;
+}
+
+footer {
+    padding: 8px;
+    color: #000000;
+    background-color: #557f55;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.alura {
+    color: #000000;
+}
+
+.alura:hover{
+    color: #111911;
+}
