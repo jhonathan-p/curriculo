@@ -6,8 +6,17 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: #111911;
+    color: #F6F6F6;
+}
+
 header {
     padding: 1% 10% 1% 10%;
+    display: block;
 }
 
 .menu {
@@ -43,20 +52,12 @@ header {
     color:#111911;
 }
 
-body {
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    background-color: #111911;
-    color: #F6F6F6;
-}
-
 main {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: justify;
-    padding: 2%;
+    padding: 3%;
 }
 
 .content__presentation {
@@ -108,6 +109,15 @@ main {
     background-color: #223322;
 }
 
+.img__index {
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 32px;
+    width: 400px;
+    height: auto;
+    filter: drop-shadow(10px 10px 30px rgb(0, 0, 100));
+}
+
 .img__jhonathan {
     margin-left: 5%;
     margin-top: 5%;
@@ -140,6 +150,37 @@ footer {
     color: #111911;
 }
 
+/* //////////////////////////////////////// */
+
+.curriculo__main {
+    justify-content: space-between;
+    padding-left: 15%;
+}
+
+.curriculo__subtitle{
+    font-size: 16px;
+    font-weight: bold;
+    padding:16px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    padding-left: 10%;
+}
+
+.curriculo__job__desc {
+    padding-left: 5%;
+}
+
+a{
+    color:#F6F6F6;
+    font-weight:bold
+}
+
+/* //////////////////////////////////////// */
+
 @media only screen and (max-width: 1360px) and (max-device-width: 800px) {
 
     header {
@@ -171,6 +212,11 @@ footer {
         width: 300px;
     }
 
+    .img__index {
+        margin-left: 0;
+        width: 300px;
+    }
+
     .img__jhonathan {
         margin-left: 0;
         width: 300px;
@@ -178,5 +224,10 @@ footer {
 
     footer {
         position: relative;
+    }
+
+    .curriculo__main {
+        justify-content: center;
+        padding-left: 5%;
     }
 }
