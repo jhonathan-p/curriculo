@@ -145,11 +145,11 @@ footer {
     margin-top: auto;
 }
 
-.alura {
+.anchor__footer {
     color: #000000;
 }
 
-.alura:hover{
+.anchor__footer:hover{
     color: #111911;
 }
 
